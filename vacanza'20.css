@@ -3,14 +3,10 @@
 	padding: 0;
 }
 #header{
-	background-image: url(images/background.png);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.png);
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
-}
-.container{
-	margin-left: 30px;
-	margin-right: 30px; 
+	height: 100vh;
 }
 .CSIlogo{
 	letter-spacing: 3px;
@@ -18,12 +14,38 @@
 	font-weight: 800;
 }
 a:-webkit-any-link{
-   	color: red;
+   	color: white;
 	text-decoration: none;
 }
 .nav{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
+	padding: .5rem 2rem;
 	position: fixed;
 	width: 100%;
 	margin-top: 1rem;
+}
+#sidenav{
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	right: -250px;
+	top: 0;
+	background: rgba(238,244,242,.4);
+    transition: .5s;
+	z-index: 2;
+}
+ nav ul li {
+ 	list-style: none;
+ 	margin: 53px 20px;
+ }
+#menubtn{
+	width: 50px;
+	position: fixed;
+	right: 30px;
+	top: 15px;
+	cursor: pointer;
+	z-index: 2;
+}
+#navbtn{
+	color: black;
 }

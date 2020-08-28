@@ -8,12 +8,34 @@
 <body>
 	<!-- -------------------Header------------------------ -->
 	<section id="header">
-     <div class="container">
      	   <div class="nav">
      	   <div class="CSIlogo"><a href="https://csiakgec.in/" target="_blank">CSI</a></div>
-           </div>	   
-     </div>
+             <nav id="sidenav">
+           	   <ul id="navbtn">
+           	   	   <li><a href="#">HOME</a></li>
+           	   	   <li><a href="#">ROUNDS</a></li>
+           	   	   <li><a href="#">QUIZZES</a></li>
+           	   </ul>
+             </nav>
+           </div>
+           <img src="images/menu.png" id="menubtn">	   
 	</section>
+
+<script>
+	var menubtn = document.getElementById("menubtn");
+	var sidenav = document.getElementById("sidenav");
+	    
+        sidenav.style.right="-250px";
+      menubtn.onclick=function()
+     {
+	    if (sidenav.style.right=="-250px") {
+	    	sidenav.style.right = "0";
+	    }
+        else{
+	    	sidenav.style.right = "-250px";
+        }
+    }
+</script>
 
 </body>
 </html>
