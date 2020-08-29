@@ -67,7 +67,7 @@ a:-webkit-any-link{
 	position: absolute;
     margin-top: 22%;
     color: white;
-    font-size: 7rem;
+    font-size: 7.29vw;
     font-family: 'Raleway',sans-serif;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #00695c;
@@ -94,4 +94,67 @@ a:-webkit-any-link{
 .header_contents ul li a:hover{
 	background-color: white;
 	color: black;
+	transition: all .4s;
+}
+/*button{
+	opacity: 0;
+	transition: .2s;
+	margin-left: 10px;
+	width: 0;
+}*/
+li:hover button{
+   width: 50px;
+   opacity: 1;
+}
+  /*<!-- -----------------Rounds------------------------- -->*/
+ .rounds{
+  	padding: 45px 90px;
+ 	background-color: #eeeeee;
+ }
+.box{
+    padding: 15px;
+    box-shadow: 7px 6px 15px rgba(0,0,0,.2);
+    background: white;
+    margin-bottom: 45px;
+}
+.heading1{
+	font-size: 25px;
+	color: #3f3c3d;
+	font-weight: 400;
+	border-bottom: 1px solid #e0e0e0;
+	width: 70%;
+}
+.paragraph{
+    margin-top: 15px;
+    color: #737272;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 33px;
+}
+.heading2{
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #737272;
+}
+.domains{
+    color: #737272;
+    font-size: 20px;
+    font-weight: 300;
+}
+.rule_btn{
+    border: 1px solid #00695c;
+    color: #00695c;
+    border-radius: 3px;
+    width: 75px; 
+    padding-left: 23px;
+    padding-top:10px ;
+    padding-bottom:10px;  
+    cursor: pointer;
+    margin-top: 15px;
+}
+.rule_btn:hover{
+   color: white;
+   background-color: #00695c;
 }
