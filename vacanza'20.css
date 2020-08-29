@@ -6,12 +6,12 @@
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.png);
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	height: 90vh;
 }
 .CSIlogo{
 	letter-spacing: 3px;
-	font-family: 'Raleway',sans-serif;
 	font-weight: 800;
+	font-family: 'Raleway',sans-serif;
 }
 a:-webkit-any-link{
    	color: white;
@@ -46,6 +46,52 @@ a:-webkit-any-link{
 	cursor: pointer;
 	z-index: 2;
 }
-#navbtn{
+.logo{
+	height: 200px;
+	width: 200px;
+	opacity: .9;
+	transition: all .4s;
+}    
+.logo:hover{
+    width: 220px;
+    height: 220px;
+    transform: rotate(720deg);
+}
+.header_contents{
+   display: flex;
+   align-items: center;
+   height: 90%;
+   justify-content: center;
+  }
+.heading{
+	position: absolute;
+    margin-top: 22%;
+    color: white;
+    font-size: 7rem;
+    font-family: 'Raleway',sans-serif;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #00695c;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.header_contents ul{
+	position: absolute;
+	margin-top: 35%;
+	color: white;
+	list-style-type: none;
+}
+.header_contents ul li{
+	display: inline-block;
+}
+.header_contents ul li a{
+	margin: 0 1rem;
+	padding: 1rem 1.5rem;
+	font-size: 1rem;
+	border: 2px solid #fff;
+	letter-spacing: 2px;
+	border-radius: 100px;
+}
+.header_contents ul li a:hover{
+	background-color: white;
 	color: black;
 }
