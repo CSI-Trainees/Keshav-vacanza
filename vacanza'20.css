@@ -13,7 +13,7 @@
 	font-weight: 800;
 	font-family: 'Raleway',sans-serif;
 }
-a:-webkit-any-link{
+.CSIlogo a{
    	color: white;
 	text-decoration: none;
 }
@@ -37,6 +37,10 @@ a:-webkit-any-link{
  nav ul li {
  	list-style: none;
  	margin: 53px 20px;
+ }
+ nav ul li a{
+ 	text-decoration: none;
+ 	color: white;
  }
 #menubtn{
 	width: 50px;
@@ -90,20 +94,20 @@ a:-webkit-any-link{
 	border: 2px solid #fff;
 	letter-spacing: 2px;
 	border-radius: 100px;
+	text-decoration: none;
+	color: white;
 }
-.header_contents ul li a:hover{
-	background-color: white;
-	color: black;
-	transition: all .4s;
-}
-/*button{
-	opacity: 0;
-	transition: .2s;
-	margin-left: 10px;
+button{
+	text-align: left;	
+    opacity: 0;
 	width: 0;
-}*/
-li:hover button{
-   width: 50px;
+	transition: all 1s;
+	background-color: transparent;
+	border-style: none;
+	color: white;
+}
+li:hover button{	
+   width: 20px;
    opacity: 1;
 }
   /*<!-- -----------------Rounds------------------------- -->*/
@@ -153,8 +157,15 @@ li:hover button{
     padding-bottom:10px;  
     cursor: pointer;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .rule_btn:hover{
    color: white;
    background-color: #00695c;
+}
+.special1{
+	margin-top: 40px;
+}
+.special{
+	margin-bottom: 40px;
 }
